@@ -41,7 +41,7 @@ public class Metod {
         }
     }
 
-    boolean neprost(int a) //ФУНКЦИЯ НА ПРОВЕРКУ НЕ ПРОСТОГО ЧИСЛА
+    boolean neprost(int a) //2ФУНКЦИЯ НА ПРОВЕРКУ НЕПРОСТОГО ЧИСЛА
     {
         int kol=0;
         for(int i=1;i<=a;i++)
@@ -53,7 +53,7 @@ public class Metod {
             return false;
     }
 
-    void neupor() //ФУНКЦИЯ НА ПРОВЕРКУ НЕ ПРОСТОГО ЧИСЛА
+    void neupor() //ФУНКЦИЯ НА ПРОВЕРКУ НЕПРОСТОГО ЧИСЛА
     {
         int num=0; int kol=0;
         for(int i=0;i<n;i++)
